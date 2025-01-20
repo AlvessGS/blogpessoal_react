@@ -17,7 +17,7 @@ function Navbar() {
     
     return (
         <>
-            <div className='w-full bg-indigo-900 text-white
+            <div className='w-full bg-blue-400 text-white
                 flex justify-center py-4'>
 
                 <div className="container flex justify-between text-lg">
@@ -25,8 +25,8 @@ function Navbar() {
 
                     <div className='flex gap-4'>
                         Postagens
-                        Temas
-                        Cadastrar tema
+                        <Link to='/temas' className='hover:underline'>Temas</Link>
+                        <Link to='/cadastrartema' className='hover:underline'>Cadastrar tema</Link>
                         Perfil
                         <Link to='' onClick={logout} className='hover:underline'>Sair</Link>
                     </div>
