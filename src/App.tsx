@@ -1,6 +1,6 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Footer from './componets/footer/Footer';
-import Navbar from './componets/navbar/Navbar';
+import Navbar from './componets/navbar/NavBar';
 import { AuthProvider } from './contexts/AuthContext';
 import Home from './pages/home/Home';
 import Login from './pages/login/Login'
